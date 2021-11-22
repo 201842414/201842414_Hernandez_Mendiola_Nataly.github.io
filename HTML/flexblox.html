@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Flexbox</title>
+	<style>
+		.box-container-flex{
+			background-color: #E2C6C6;
+			display:flex; }
+		.box-container-flex-3>div{
+			width: 40%;
+		}
+		.box-container-flex>div, .box-container-flex-2>div, .box-container-flex-3>div, .box-container-flex-4>div{
+			width:400px;
+			background-color: #C0C0C0;
+			margin: 10px;
+			padding: 20px;
+			font-size: 30px;
+		}
+		.box-container-flex-2{
+			background-color: #E9C3C4;
+			display: flex;
+			flex-direction: column-reverse;
+		}
+		
+		.box-container-flex-3{
+			background-color: #E9C3C4;
+			display: flex;
+			flex-direction: nowrap;
+		}
+		.box-container-flex-4{
+			background-color: #E9C3C4;
+			display: flex;
+			align-items:center;
+		}
+	
+	</style>
+</head>
+
+<body>
+	<header>Flexbox</header>
+	<nav></nav>
+	<main>
+		<section>
+			<h2>Uso de la propiedad flexbox</h2>
+			<div class="box-container-flex">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			</div>
+		</section>
+		<section>
+			<h2>Uso de la propiedad flex column </h2>
+			<div class="box-container-flex-2">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			</div>
+		</section>
+		<section>
+			<h2>Uso de la propiedad flex wrap, nowrap</h2>
+			<div class="box-container-flex-3">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			<div>6</div>
+			<div>7</div>
+			<div>8</div>
+			<div>9</div>
+			<div>10</div>
+			<div>11</div>
+			<div>12</div>
+			</div>
+		</section>
+		<section>
+			<h2></h2>
+			<div class="box-container-flex-4">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>

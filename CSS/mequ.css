@@ -1,0 +1,11 @@
+@charset "UTF-8";
+h1{
+	width: 100%;
+	background-color:#D49FA0;
+	color: #FFFFFF;
+}
+@media (min-width:361px) and(max-width:640px){
+	h1{
+		width:50%;
+	}
+}

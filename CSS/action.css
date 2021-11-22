@@ -1,0 +1,18 @@
+@charset "UTF-8";
+*{
+	margin: 0px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F3CACB;
+}
+p{
+	text-align: center;
+	font-size: 100px;
+	color:#FFFFFF;
+	padding-top: 300px;
+}
+#no1{
+	padding-top:5px;
+	
+}

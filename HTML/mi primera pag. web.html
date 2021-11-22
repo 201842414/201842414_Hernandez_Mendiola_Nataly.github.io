@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Tablas en HTML</title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			h1{
+				color:#B57879;
+				font-size: 30px;
+			}
+			h2{
+				color:#D1C384;
+				font-size: 30px;
+			}
+			h5{
+				color:#E0D1E5;
+				font-size: 12px;
+				
+			}
+			header,footer,main,nav{
+				width: 1024;
+				margin: 0 auto;/*Centra la caja automaticamnete*/
+				padding: 20px;
+			}
+			header,footer{
+				height: 20px;
+				text-align: center;
+				background-color:#F5E7E7;
+			}
+			nav{
+				height: 50px;
+				background-color: lightcyan;
+			}
+			main{
+				height: auto;
+				background-color: #F2DBEC;
+			}
+			section{
+				background-color: #151723;
+				margin:30px;
+				padding: 10px;
+			}
+			table{
+				border-collapse: collapse;
+			}
+			th,td{
+				padding: 10px;
+			}
+			th{
+				text-align: left;
+				background-color: azure;
+				color:#151723;
+			}
+			td{
+				background-color: #E2D5D0;
+				color:#151723;
+			}
+			#t01 td{
+				background-color: #f8d9d9;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<header>
+			<h1>TABLAS EN HTML</h1>
+		</header>
+		<nav></nav>
+		<main>
+			<section>
+				<h2>Tabla simple</h2>
+					<table border="1">
+						<thead>
+							<tr>
+								<th>Nombre</th>
+								<th>E-mail</th>
+								<th>Teléfono</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Mayte Sanchez</td>
+								<td>mayz@gmail.com</td>
+								<td>2225467809</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>lupita23@hotmail.com</td>
+								<td>2214653897</td>
+							</tr>
+							<tr>
+								<td>Juan Ezquivel</td>
+								<td>juanesq@live.com</td>
+								<td>5478904327</td>
+							</tr>
+						</tbody>
+						<tfoot></tfoot>
+					</table>
+			</section>
+			<section>
+				<h2>Tabla con celda que abarca dos columnas</h2>
+					<table border="1">
+						<thead>
+							<tr>
+								<th>Nombre</th>
+								<th colspan="2">Teléfono</th>
+							</tr>
+						</thead>
+					<tbody>
+							<tr>
+								<td>Georgina López</td>
+								<td>2228901282</td>
+								<td>2227786352</td>
+							</tr>
+							<tr>
+								<td>Héctor Cortés</td>
+								<td>2228905894</td>
+								<td>2223423352</td>
+							</tr>
+							<tr>
+								<td>Mercedes Villa</td>
+								<td>7789984783</td>
+								<td>7727746352</td>
+							</tr>
+						</tbody>
+						<tfoot></tfoot>
+				</table>
+			</section>
+			<section>
+				<table width="600" border="1" id="t01">
+					<thead>
+						<tr>
+							<th scope="col">Nombre</th>
+							<th scope="col">Apellidos</th>
+							<th scope="col">Edad</th>
+						</tr>
+					</thead>
+				<tbody>
+					<tr>
+						<td>Andrea</td>
+						<td>Ramirez Rosas</td>
+						<td>13</td>
+					</tr>
+					<tr>
+						<td>Erick</td>
+						<td>Gallardo Calderón</td>
+						<td>15</td>
+					</tr>
+					<tr>
+						<td>Graciela</td>
+						<td>Hernández Juárez</td>
+						<td>14</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		</main>
+		<footer>
+			<h5>Elaborado por Nataly Mendiola</h5></footer>
+	</body>
+</html>

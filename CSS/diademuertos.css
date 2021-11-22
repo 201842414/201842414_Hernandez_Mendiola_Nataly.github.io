@@ -1,0 +1,56 @@
+@charset "UTF-8";
+*{ margin: auto;
+   padding: 0px;
+ }
+header{
+	background-color:#F28177;
+	color: #FFFFFF;
+	height: auto;
+	font-family: 'Satisfy', cursive;
+	font-size: 100px;
+	text-align: center;
+} 
+body{
+	align-content: center;
+	background-color: #F2E635;
+	}
+.info{
+	width: 40%;
+	background-color: #F2811D;
+	padding: 40px;
+	margin-top: 30px;
+	
+}
+
+p{
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.container{
+	display: flex;	
+	background-color: #D93DAF;
+	width:60%;
+	align-items: center;
+	margin-top: 50px;
+	
+}
+.container>div{
+	padding: 40px;
+	
+	
+}
+.ti{
+	font-family: 'Satisfy', cursive;
+	font-size: 70px;
+}
+
+/* Color Theme Swatches in Hex */
+.Death-死-Muerte-1-hex { color: #D93DAF; }
+.Death-死-Muerte-2-hex { color: #F2E635; }
+.Death-死-Muerte-3-hex { color: #F2C230; }
+.Death-死-Muerte-4-hex { color: #F2811D; }
+.Death-死-Muerte-5-hex { color: #F28177; }
+
+
+
